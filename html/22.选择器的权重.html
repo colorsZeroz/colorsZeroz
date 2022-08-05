@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选择器的权重</title>
+    <style>
+        #iddiv{
+            background-color: blue;
+        }
+        .cdiv{
+            background-color: black;
+        }
+        div{
+            background-color: yellow!important;
+        }
+        div .pclass{
+            background-color: azure;
+        }
+        div p{
+            background-color: orange;
+        }
+        p{
+            background-color: brown;
+        }
+        /* !important>内联样式>id>class>元素 */
+    </style>
+</head>
+<body>
+    <div class="cdiv" id="iddiv" style="background-color:red ;">11111111111
+        <p  class="pclass">2222222</p>
+    </div>
+    <p>3333</p>
+</body>
+</html>

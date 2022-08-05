@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 200px;
+            height: 100px;
+            line-height: 100px;
+            text-align: 40px;
+            background: rgb(0, 208, 255);
+            color: white;
+        }
+        span{
+            width: 0;
+            height: 0;
+            display: inline-block;
+            border: 10px solid transparent;
+            border-bottom: 10px solid black;
+            position: relative;
+            top: 0px;
+        }
+        .box1:hover span{
+            width: 0;
+            height: 0;
+            display: inline-block;
+            border: 10px solid transparent;
+            border-top: 10px solid black;
+            top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">
+        导航
+        <span></span>
+    </div>
+</body>
+</html>

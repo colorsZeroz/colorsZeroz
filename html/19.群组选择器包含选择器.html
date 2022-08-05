@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>群组选择器包含选择器</title>
+    <style>
+        /* div{
+            background-color: blue;
+        }
+        p{
+            background-color: blue;
+        }
+        h1{
+            background-color: blue;
+        } */
+        p,h1,.boxp{
+            color: blanchedalmond;
+            background-color: blue;
+        }
+        /* 群组选择器：提供公共代码，节约代码量 */
+    </style>
+    <style>
+        div p{
+            background-color: blue;
+        }
+        /* 后代选择器，包含选择器，从右到走选择 */
+    </style>
+</head>
+<body>
+    <div>111111</div>
+    <p>111111</p>
+    <h1>1111111</h1>
+    <p class="boxp">222222</p>
+    <div>后代选择器
+        <p>11111111</p>
+    </div>
+</body>
+</html>

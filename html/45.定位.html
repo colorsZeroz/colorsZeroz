@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>定位</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            height: 300px;
+            width: 300px;
+        }
+        .box1{
+            background: red;
+        }
+        /* 相对定位 */
+        .box2{
+            background: rgb(76, 0, 255);
+            position: relative;
+            top: 100px;
+            left: 100px;
+        }
+        /* 绝对定位 */
+        .box3{
+            background: rgb(68, 255, 0);
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        }
+        /* 父级相对，子级绝对 */
+        .box{
+            width: 600px;
+            height: 600px;
+            background: rgb(0, 0, 0);
+            margin: 0 auto;
+            position: relative;
+        }
+        .child{
+            width: 200px;
+            height: 200px;
+            background: white;
+            left: 100px;
+            top: 100px;
+            position: absolute;
+        }
+        /* 固定定位 */
+        .ad{
+            width: 100px;
+            height: 200px;
+            position: fixed;
+            background: aqua;
+            right: 0px;
+            bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <div class="box3"></div>
+      <div class="box">
+        <div class="child">
+
+        </div>
+      </div>
+      <div class="ad">
+
+      </div>
+</body>
+</html>

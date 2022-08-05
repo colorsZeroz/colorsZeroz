@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            /* white-space: per-line; */
+            background-color: yellow;
+            /* 
+                norap 不换行
+                pre 显示空格 回车 不换行
+                pre-wrap 显示空格 回车 换行
+                pre-link 显示空格 不回车 换行
+            */
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis inventore libero est? Ab odio, minima aut saepe amet consequuntur doloremque illum expedita facere iure, quo, reiciendis voluptate vel id non.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, soluta sint! Sunt eos repellendus quo et? Amet facilis, modi accusamus veniam doloremque illo numquam natus aut impedit, quasi, quam porro.
+        div{
+            width: 200px;
+            height: 200px;
+            white-space: nowrap;
+        }
+    </div>
+    <pre>
+        域格式化文本-保留空格，tab，回车
+        div{
+            width: 200px;
+            height: 200px;
+            white-space: nowrap;
+        }
+    </pre>
+
+</body>
+</html>

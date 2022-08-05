@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+         }
+         .box{
+            width: 300px;
+            margin: 0 auto;
+         }
+         ul{
+            list-style: none;
+         }
+         .box .item{
+            float: left;
+            width: 98px;
+            text-align: center;
+            border: 1px solid blue;
+            background: blue;
+            color: white;
+         }
+         .item:hover{
+            background-color: blueviolet;
+         }
+         .item ul{
+            display: none;
+            background: white;
+            color: black;
+         }
+         .item:hover ul{
+            display: block;
+         }
+
+         .item li:hover {
+            color: blue;
+
+         }
+    </style>
+</head>
+<body>
+    <ul class="box">
+        <li class="item">甘雨
+            <ul>
+                <li>甘雨</li>
+                <li>刻晴</li>
+                <li>申鹤</li>
+                <li>申鹤</li>
+            </ul>
+        </li>
+        <li class="item">刻晴
+            <ul>
+                <li >甘雨</li>
+                <li >刻晴</li>
+                <li ">申鹤</li>
+            </ul>
+        </li>
+        <li class="item">申鹤
+            <ul>
+            <li >甘雨</li>
+            <li >刻晴</li>
+            <li >申鹤</li>
+        </ul></li>
+    </ul>
+</body>
+</html>

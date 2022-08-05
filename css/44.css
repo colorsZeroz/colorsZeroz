@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+.bili-banner{
+    background-image:url(../resources/image/bilibili/bilibanner.png) ;
+    background-repeat:no-repeat;
+    background-position:center top;
+    background-size:  auto 100%;
+}
+.con{
+    width: 1250px;
+    margin: auto;
+
+}
+.header{
+    height: 195px;
+    /* background: rgb(0, 255, 94); */
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    background: url(../resources/image/bilibili/logo.jpg);
+    background-size:contain;
+    float: right;
+    margin-right: 10px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+}
+.headerlift{
+    float: left;
+}
+.headerright{
+    float: right;
+}
+
+.headerlift ul,.headerright ul{
+    height: 50px;
+    margin-top: 10px;
+    line-height: 50px;
+}
+.headerlift li{
+    float: left;
+}
+.headerright li{
+    float: right;
+}
+.headerlift ul a,.headerright ul a{
+    padding: 0 9px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.search{
+    width: 348px;
+    height: 40px;
+    float: left;
+    margin-top: 5px;
+    border: 1px solid rgb(75, 75, 75);
+}
+.search input{
+    border: 0;
+    outline: none;
+}
+.search .lift{
+    width: 264px;
+    float: left;
+    height: 40px;
+    padding-left: 24px;
+}
+.search .right{
+    float: right;
+    width: 60px;
+    height: 40px;
+    background: url(../resources/image/bilibili/搜索.png);
+}
+.nav{
+    height: 40px;
+    line-height: 40px;
+    background: #89bacf;
+}
+.nav ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.nav li{
+    float: left;
+    margin:0 30px;
+}
+.list{
+    height: 240px;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.item{
+    width: 215px;
+    height: 240px;
+    float: right;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.title{
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0 8px;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-weight: 500;
+    padding-right: 12px;
+}
+.up{
+    display: flex;
+    font-size: 12px;
+    color: #999;
+    line-height: 16px
+}
+.time{
+    display: flex;
+    font-size: 12px;
+    color: #999;
+    line-height: 16px
+}
+.item img{
+    display: block;
+}
+.footer{
+    height: 300px;
+    background: rgb(242, 242, 242);
+}
+.footer ul_{
+    height: 84px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 28px;
+}
+.footer ul li{
+    width: 250px;
+    padding: 30px;
+    font-size: 12px;
+    color: #369;
+    float: left;
+}
+.footer p{
+    height: 61px;
+    line-height: 61px;
+    padding-left: 30px;
+    font-size: 12px;
+}
+.footer p span{
+    color: rgb(110, 145, 252);
+}
